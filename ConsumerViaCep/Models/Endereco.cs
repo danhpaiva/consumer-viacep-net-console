@@ -11,15 +11,15 @@ namespace ConsumerViaCep.Models
         [JsonPropertyName("cep")]
         public string Cep { get; set; }
 
-         [JsonPropertyName("logradouro")]
+        [JsonPropertyName("logradouro")]
         public string Logradouro { get; set; }
 
         public string Complemento { get; set; }
 
-         [JsonPropertyName("bairro")]
+        [JsonPropertyName("bairro")]
         public string Bairro { get; set; }
 
-         [JsonPropertyName("localidade")]
+        [JsonPropertyName("localidade")]
         public string Localidade { get; set; }
 
         [JsonPropertyName("uf")]
